@@ -1,0 +1,13 @@
+D:\Programming\ImitatcionnieModeli\_Master\Term11\SimulationModel_Task1\bin\Debug\netcoreapp3.1\SimulationModel_Task1.exe
+D:\Programming\ImitatcionnieModeli\_Master\Term11\SimulationModel_Task1\bin\Debug\netcoreapp3.1\SimulationModel_Task1.deps.json
+D:\Programming\ImitatcionnieModeli\_Master\Term11\SimulationModel_Task1\bin\Debug\netcoreapp3.1\SimulationModel_Task1.runtimeconfig.json
+D:\Programming\ImitatcionnieModeli\_Master\Term11\SimulationModel_Task1\bin\Debug\netcoreapp3.1\SimulationModel_Task1.runtimeconfig.dev.json
+D:\Programming\ImitatcionnieModeli\_Master\Term11\SimulationModel_Task1\bin\Debug\netcoreapp3.1\SimulationModel_Task1.dll
+D:\Programming\ImitatcionnieModeli\_Master\Term11\SimulationModel_Task1\bin\Debug\netcoreapp3.1\SimulationModel_Task1.pdb
+D:\Programming\ImitatcionnieModeli\_Master\Term11\SimulationModel_Task1\obj\Debug\netcoreapp3.1\SimulationModel_Task1.csprojAssemblyReference.cache
+D:\Programming\ImitatcionnieModeli\_Master\Term11\SimulationModel_Task1\obj\Debug\netcoreapp3.1\SimulationModel_Task1.AssemblyInfoInputs.cache
+D:\Programming\ImitatcionnieModeli\_Master\Term11\SimulationModel_Task1\obj\Debug\netcoreapp3.1\SimulationModel_Task1.AssemblyInfo.cs
+D:\Programming\ImitatcionnieModeli\_Master\Term11\SimulationModel_Task1\obj\Debug\netcoreapp3.1\SimulationModel_Task1.csproj.CoreCompileInputs.cache
+D:\Programming\ImitatcionnieModeli\_Master\Term11\SimulationModel_Task1\obj\Debug\netcoreapp3.1\SimulationModel_Task1.dll
+D:\Programming\ImitatcionnieModeli\_Master\Term11\SimulationModel_Task1\obj\Debug\netcoreapp3.1\SimulationModel_Task1.pdb
+D:\Programming\ImitatcionnieModeli\_Master\Term11\SimulationModel_Task1\obj\Debug\netcoreapp3.1\SimulationModel_Task1.genruntimeconfig.cache
