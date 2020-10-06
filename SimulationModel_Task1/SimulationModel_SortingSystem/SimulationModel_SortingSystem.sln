@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimulationModel_SortingSystem", "SimulationModel_SortingSystem\SimulationModel_SortingSystem.csproj", "{A81229D7-4427-4410-9DD4-0FAC315B63DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A81229D7-4427-4410-9DD4-0FAC315B63DA}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{A81229D7-4427-4410-9DD4-0FAC315B63DA}.Debug|anycpu.Build.0 = Debug|anycpu
+		{A81229D7-4427-4410-9DD4-0FAC315B63DA}.Release|anycpu.ActiveCfg = Release|anycpu
+		{A81229D7-4427-4410-9DD4-0FAC315B63DA}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
