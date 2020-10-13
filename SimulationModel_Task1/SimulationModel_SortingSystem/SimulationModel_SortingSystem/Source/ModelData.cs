@@ -29,18 +29,14 @@ namespace AndeiYefimov.SortingSystem.Library
     public class SortableObject
     {
         public int _index;
-        public SortableObjectType _objectType;
-        public float _incomingTime;
-        public float _departureTime;
         public int _sortingIterations;
 
-        public SortableObject(int index, float incomingTime)
+        public SortableObject(int index)
         {
             _index = index;
-            _incomingTime = incomingTime;
-            _departureTime = 0;
-            _objectType = (SortableObjectType)new Random().Next(0, 3);
             _sortingIterations = 0;
+
+            Console.WriteLine("** New object");
         }
     }
 

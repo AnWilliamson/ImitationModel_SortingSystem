@@ -38,9 +38,10 @@ namespace AndeiYefimov.SortingSystem.Library
         public const int _workers = 2;
         public const int _numObjectsTypes = 3;
 
-        public static List<SortableObject> _objects = new List<SortableObject>();
         public static List<Worker> _workersList = new List<Worker>();
 
+        public static int _curObjectIndex = 0;
+        public static List<SortableObject> _objects = new List<SortableObject>();
         public static List<SortableObject> _sortedObjects = new List<SortableObject>();
         public static List<List<SortableObject>> _onServise = new List<List<SortableObject>>();
 
@@ -50,7 +51,8 @@ namespace AndeiYefimov.SortingSystem.Library
         public static void Arrive(bool firstArrival)
         {
             Console.WriteLine("Arrive");
-            _totalObjects++;
+            _objects.Add(new SortableObject(++_totalObjects));
+            _curObjectIndex = _totalObjects;
             AddSystemEvent(_simTime + _timeToNextObject, ModelData.EVENT_ARRIVAL);
 
 
@@ -66,6 +68,13 @@ namespace AndeiYefimov.SortingSystem.Library
         public static void Service()
         {
             Console.WriteLine("Service");
+            foreach (var item in _objects)
+                if(item._index == _curObjectIndex)
+                {
+                    _sortedObjects.Add(item);
+                    _objects.Remove(item);
+                    break;
+                }
         }
 
         public static void Report()
