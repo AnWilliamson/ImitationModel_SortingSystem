@@ -20,7 +20,7 @@ namespace AndeiYefimov.SortingSystem.Library
         public const int STREAM_INTERARRIVAL = 1;       // Поток случайных чисел для интервалов времени между поступлениями работ
         public const int STREAM_DESEASE_TYPE = 2;       // Поток случайных чисел для типов работ
         public const int STREAM_SERVICE = 3;            // Поток случайных чисел для времени обслуживания
-        public const int OBJECT_TYPES = 3;             // Лёгкое заболевание \ среднее \ тяжёлое
+        public const int OBJECT_TYPES = 3;
         public const int SAMPST_DELAYS = 1;				// переменная функции sampst для задержек в очереди(очередях). 
     }
 
@@ -34,11 +34,12 @@ namespace AndeiYefimov.SortingSystem.Library
         public float _departureTime;
         public int _sortingIterations;
 
-        public SortableObject(int index, float incomingTime, float departureTime)
+        public SortableObject(int index, float incomingTime)
         {
             _index = index;
             _incomingTime = incomingTime;
-            _departureTime = departureTime;
+            _departureTime = 0;
+            _objectType = (SortableObjectType)new Random().Next(0, 3);
             _sortingIterations = 0;
         }
     }
@@ -49,12 +50,12 @@ namespace AndeiYefimov.SortingSystem.Library
 
         public Worker(float probToSortCorrectly) => _probToSortCorrectly = probToSortCorrectly;
     }
-    public class NextEvent
+    public class SystemEvent
     {
         public float _time;
         public int _eventType;
 
-        public NextEvent(float time, int eventType)
+        public SystemEvent(float time, int eventType)
         {
             _time = time;
             _eventType = eventType;

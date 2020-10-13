@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{A81229D7-4427-4410-9DD4-0FAC315B63DA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SimulationModel_SortingSystem/Source/SimLibDefs.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SimulationModel_SortingSystem/Source/Program.cs">
     <Files>
-      <File FileName="SimulationModel_SortingSystem/Program.cs" Line="103" Column="55" />
-      <File FileName="SimulationModel_SortingSystem/Source/ModelData.cs" Line="15" Column="70" />
-      <File FileName="SimulationModel_SortingSystem/Source/SimLibDefs.cs" Line="12" Column="6" />
+      <File FileName="SimulationModel_SortingSystem/Source/ModelData.cs" Line="49" Column="42" />
+      <File FileName="SimulationModel_SortingSystem/Source/SimLibDefs.cs" />
+      <File FileName="SimulationModel_SortingSystem/Source/Program.cs" Line="99" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +12,7 @@
             <Node name="SimulationModel_SortingSystem" expanded="True">
               <Node name="Properties" expanded="True" />
               <Node name="Source" expanded="True">
-                <Node name="SimLibDefs.cs" selected="True" />
+                <Node name="Program.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -20,7 +20,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.SimulationModel__SortingSystem FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.SimulationModel__SortingSystem PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
