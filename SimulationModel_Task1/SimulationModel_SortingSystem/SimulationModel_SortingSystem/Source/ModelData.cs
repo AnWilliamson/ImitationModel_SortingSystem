@@ -30,13 +30,13 @@ namespace AndeiYefimov.SortingSystem.Library
     {
         public int _index;
         public int _sortingIterations;
+        public float _incomingTime;
 
-        public SortableObject(int index)
+        public SortableObject(int index, float incomingTime)
         {
             _index = index;
+            _incomingTime = incomingTime;
             _sortingIterations = 0;
-
-            Console.WriteLine("** New object");
         }
     }
 

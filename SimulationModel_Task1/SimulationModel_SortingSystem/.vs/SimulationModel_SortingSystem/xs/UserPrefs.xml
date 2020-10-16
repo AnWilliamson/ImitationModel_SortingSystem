@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{A81229D7-4427-4410-9DD4-0FAC315B63DA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SimulationModel_SortingSystem/Source/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SimulationModel_SortingSystem/Source/ModelData.cs">
     <Files>
-      <File FileName="SimulationModel_SortingSystem/Source/ModelData.cs" Line="49" Column="42" />
+      <File FileName="SimulationModel_SortingSystem/Source/ModelData.cs" Line="39" Column="36" />
       <File FileName="SimulationModel_SortingSystem/Source/SimLibDefs.cs" />
-      <File FileName="SimulationModel_SortingSystem/Source/Program.cs" Line="99" Column="25" />
+      <File FileName="SimulationModel_SortingSystem/Source/Program.cs" Line="31" Column="58" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,7 +12,7 @@
             <Node name="SimulationModel_SortingSystem" expanded="True">
               <Node name="Properties" expanded="True" />
               <Node name="Source" expanded="True">
-                <Node name="Program.cs" selected="True" />
+                <Node name="ModelData.cs" selected="True" />
               </Node>
             </Node>
           </Node>
