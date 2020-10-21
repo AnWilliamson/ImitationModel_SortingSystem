@@ -25,8 +25,8 @@ namespace AndeiYefimov.SortingSystem
         public static List<Worker> _workersList = new List<Worker>();
 
         public static double _minutesInHour = 60.0;
-        public static double _deviceWorkHoursAmount = 0.05f;     // device work lenght during the day (hours)
-        public static double _simulationDaysAmount = 1.0f;     // simulation lenght (days)
+        public static double _deviceWorkHoursAmount = 24.0f;     // device work lenght during the day (hours)
+        public static double _simulationDaysAmount = 182.5f;     // simulation lenght (days)
         public static double _timeToNextObject = 0.1f;
         public static double _serviceTime = 0.19f;
 
@@ -122,7 +122,7 @@ namespace AndeiYefimov.SortingSystem
             Console.WriteLine("\n *** Report ***");
 
             ConsoleReport();
-            //FileReport();
+            FileReport();
         }
 
         public static void ConsoleReport()
@@ -135,7 +135,8 @@ namespace AndeiYefimov.SortingSystem
             Console.WriteLine("_arrives: " + _arrives);
             Console.WriteLine("_departures: " + _departures);
             Console.WriteLine("_totalObjects: " + _totalObjects);
-            Console.WriteLine("Correct sorting persantage: " + GetCorrectSortingPercentage() + "%");
+            Console.WriteLine("* max sorting iterations: " + GetMaxSortingIterationAmount());
+            Console.WriteLine("Correct sorting percentage: " + GetCorrectSortingPercentage() + "%");
             Console.WriteLine("\n******************************\n");
         }
 
@@ -150,7 +151,8 @@ namespace AndeiYefimov.SortingSystem
             text += "_arrives: " + _arrives + "\n";
             text += "_departures: " + _departures + "\n";
             text += "_totalObjects: " + _totalObjects + "\n";
-            text += "Correct sorting persantage: " + GetCorrectSortingPercentage() + "%\n";
+            text += "max sorting iterations: " + GetMaxSortingIterationAmount() + "\n";
+            text += "Correct sorting percentage: " + GetCorrectSortingPercentage() + "%\n";
             text += "\n******************************\n\n";
 
 
@@ -228,6 +230,17 @@ namespace AndeiYefimov.SortingSystem
                 sum += number;
             }
             Console.WriteLine("** avg: " + (sum / 100.0f));
+        }
+
+        public static int GetMaxSortingIterationAmount()
+        {
+            int maxIterations = 0;
+            foreach (var item in _sortedObjects)
+            {
+                if (maxIterations < item._sortingIterations)
+                    maxIterations = item._sortingIterations;
+            }
+            return maxIterations;
         }
         #endregion
 

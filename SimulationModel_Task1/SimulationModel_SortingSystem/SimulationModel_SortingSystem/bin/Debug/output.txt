@@ -1,0 +1,280 @@
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 0,5
+	2 - 0,5
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 1366248
+max sorting iterations: 19
+Correct sorting percentage: 0,5199%
+
+******************************
+
+
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 0,55
+	2 - 0,5
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 1365260
+max sorting iterations: 20
+Correct sorting percentage: 0,5194%
+
+******************************
+
+
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 0,55
+	2 - 0,55
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 1471230
+max sorting iterations: 19
+Correct sorting percentage: 0,5594%
+
+******************************
+
+
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 0,6
+	2 - 0,55
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 1470400
+max sorting iterations: 17
+Correct sorting percentage: 0,5594%
+
+******************************
+
+
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 0,6
+	2 - 0,6
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 1576589
+max sorting iterations: 17
+Correct sorting percentage: 0,5999%
+
+******************************
+
+
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 0,65
+	2 - 0,6
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 1577963
+max sorting iterations: 17
+Correct sorting percentage: 0,6004%
+
+******************************
+
+
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 0,65
+	2 - 0,65
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 1786765
+max sorting iterations: 13
+Correct sorting percentage: 0,68%
+
+******************************
+
+
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 0,7
+	2 - 0,65
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 1785305
+max sorting iterations: 14
+Correct sorting percentage: 0,6793%
+
+******************************
+
+
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 0,7
+	2 - 0,7
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 1892358
+max sorting iterations: 12
+Correct sorting percentage: 0,72%
+
+******************************
+
+
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 0,75
+	2 - 0,7
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 1892317
+max sorting iterations: 13
+Correct sorting percentage: 0,7201%
+
+******************************
+
+
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 0,75
+	2 - 0,75
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 1998481
+max sorting iterations: 10
+Correct sorting percentage: 0,7606%
+
+******************************
+
+
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 0,8
+	2 - 0,75
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 1998381
+max sorting iterations: 10
+Correct sorting percentage: 0,7604%
+
+******************************
+
+
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 0,8
+	2 - 0,8
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 2102056
+max sorting iterations: 9
+Correct sorting percentage: 0,7998%
+
+******************************
+
+
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 0,85
+	2 - 0,8
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 2102035
+max sorting iterations: 10
+Correct sorting percentage: 0,7997%
+
+******************************
+
+
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 0,85
+	2 - 0,85
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 2311782
+max sorting iterations: 7
+Correct sorting percentage: 0,8797%
+
+******************************
+
+
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 0,9
+	2 - 0,85
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 2311606
+max sorting iterations: 8
+Correct sorting percentage: 0,8795%
+
+******************************
+
+
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 0,9
+	2 - 0,9
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 2418016
+max sorting iterations: 7
+Correct sorting percentage: 0,92%
+
+******************************
+
+
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 0,95
+	2 - 0,9
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 2417323
+max sorting iterations: 7
+Correct sorting percentage: 0,9199%
+
+******************************
+
+
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 0,95
+	2 - 0,95
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 2522802
+max sorting iterations: 5
+Correct sorting percentage: 0,96%
+
+******************************
+
+
+Workers count: 2
+Workers probability to sort correctly:
+	1 - 1
+	2 - 0,95
+Simulation time: 262800 min(s)
+_arrives: 2628000
+_departures: 2627999
+_totalObjects: 2522390
+max sorting iterations: 5
+Correct sorting percentage: 0,9598%
+
+******************************
+
+
